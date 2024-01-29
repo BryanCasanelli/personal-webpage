@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "pages:deploy:main": "wrangler pages deploy 'frontend/dist' --project-name=bryancasanelli --branch=main --commit-message=''",
+    "pages:deploy:test": "wrangler pages deploy 'frontend/dist' --project-name=bryancasanelli --branch=test --commit-message=''",
+    "pages:dev": "wrangler pages dev 'frontend/dist'"
+  },
+  "dependencies": {
+    "wrangler": "^3.25.0"
+  }
+}
