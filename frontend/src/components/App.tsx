@@ -1,4 +1,5 @@
 import { useTranslation } from 'react-i18next';
+import { ChangeLanguage } from './ChangeLanguage'
 
 function App() {
 
@@ -6,6 +7,7 @@ function App() {
 
   return (
     <>
+      <ChangeLanguage />
       <div>
         <p>{t('webpage under construction')}</p>
       </div>
