@@ -1,11 +1,13 @@
-import './App.css'
+import { useTranslation } from 'react-i18next';
 
 function App() {
+
+  const { t } = useTranslation();
 
   return (
     <>
       <div>
-        <p>Página web en construcción</p>
+        <p>{t('webpage under construction')}</p>
       </div>
     </>
   )
