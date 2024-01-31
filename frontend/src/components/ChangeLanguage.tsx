@@ -1,5 +1,4 @@
 import { useTranslation } from 'react-i18next';
-import styles from './ChangeLanguage.module.css';
 
 export function ChangeLanguage() {
   const { t, i18n } = useTranslation();
@@ -9,9 +8,10 @@ export function ChangeLanguage() {
   };
 
   return (
-    <div className={styles.language_buttons}>
-      <button className="btn btn-primary btn-sm me-1" onClick={() => changeLanguage("en")}>{t('english')}</button>
-      <button className="btn btn-primary btn-sm me-1" onClick={() => changeLanguage("es")}>{t('spanish')}</button>
+    <div className="flex justify-end space-y-2.5 space-x-2.5 space-x-reverse">
+      <div></div>
+      <button className="bg-indigo-600 hover:bg-indigo-700 text-white py-2 px-4 rounded" onClick={() => changeLanguage("en")}>{t('english')}</button>
+      <button className="bg-indigo-600 hover:bg-indigo-700 text-white py-2 px-4 rounded" onClick={() => changeLanguage("es")}>{t('spanish')}</button>
     </div>
   );
 }

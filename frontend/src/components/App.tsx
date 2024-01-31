@@ -1,5 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import { ChangeLanguage } from './ChangeLanguage'
+import { NavBar } from './NavBar';
 
 function App() {
 
@@ -7,6 +8,7 @@ function App() {
 
   return (
     <>
+      <NavBar />
       <ChangeLanguage />
       <div>
         <p>{t('webpage under construction')}</p>
