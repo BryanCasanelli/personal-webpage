@@ -1,5 +1,7 @@
 # Personal Webpage
 
-This is my personal webpage code.
+This is the code for my personal webpage.
 
-It is made with React and Cloudflare services (Workers for backend, Pages for frontend, and D1 for database).
+It is built with SvelteKit and Cloudflare services.
+
+You can check it out at [bryancasanelli.cl](https://bryancasanelli.cl) or [bryancasanelli.pages.dev](https://bryancasanelli.pages.dev).
