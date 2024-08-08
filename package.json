@@ -39,5 +39,9 @@
 		"vite": "^5.0.3",
 		"wrangler": "^3.69.1"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"lucide-svelte": "^0.426.0",
+		"sveltekit-i18n": "^2.4.2"
+	}
 }
