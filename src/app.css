@@ -4,9 +4,10 @@
 
 @font-face {
     font-family: 'Noto Serif Regular';
-    src: url('/fonts/NotoSerif-Regular.ttf') format('truetype');
+    src: url('/fonts/NotoSerif-Regular.woff2') format('woff2');
+	font-display: swap;
 }
 
 .noto-serif-regular {
-	font-family: 'Noto Serif Regular';
+	font-family: 'Noto Serif Regular', serif;
 }
